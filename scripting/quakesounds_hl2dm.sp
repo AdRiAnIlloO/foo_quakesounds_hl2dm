@@ -57,7 +57,6 @@ new Handle:cvarAnnounce = INVALID_HANDLE;
 new Handle:cvarTextDefault = INVALID_HANDLE;
 new Handle:cvarSoundDefault = INVALID_HANDLE;
 new Handle:cvarVolume = INVALID_HANDLE;
-new Handle:cvarMp = INVALID_HANDLE;
 new Handle:cvarDebug = INVALID_HANDLE;
 
 new iMaxClients;
@@ -100,8 +99,6 @@ public OnPluginStart()
 	cvarSoundDefault = CreateConVar("sm_quakesounds_sound", "1", "Default sound for new users, 1=Standard, 2=Female, 0=Disabled");
 	cvarVolume = CreateConVar("sm_quakesounds_volume", "1.0", "Volume: should be a number between 0.0. and 1.0");
 	cvarDebug = CreateConVar("sm_quakesounds_debug", "0", "Print out debugging");
-
-	cvarMp = FindConVar("mp_teamplay");
 
 	if(GetConVarBool(cvarEnabled)) 
 	{
@@ -524,15 +521,6 @@ public EventPlayerDeath(Handle:event, const String:name[], bool:dontBroadcast)
 			{
 				soundId = SELFKILL;
 			}
-		}
-		else if(GetClientTeam(attackerClient) == GetClientTeam(victimClient) && GetConVarBool(cvarMp) != false)
-		{
-			consecutiveKills[attackerClient] = 0;
-			
-			if(settingConfig[TEAMKILL][NOT_BASED_ON_KILLS])
-			{
-				soundId = TEAMKILL;
-			}		
 		}
 		else
 		{

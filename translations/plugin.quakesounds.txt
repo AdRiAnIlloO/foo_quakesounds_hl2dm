@@ -1,6 +1,6 @@
 "Phrases"
 {
-	"headshot 1"
+	"headshot"
 	{
 		"#format"	"{1:s},{2:s}"
 		"en"		"{1} Headshot"
@@ -8,24 +8,6 @@
 		"fr"		"{1} aime les grosses têtes !!"
 		"pt"		"{1} conseguiu um Tiro na Cabeça"
 		"es"		"Headshot de {1}!"
-	}
-	"headshot 3"
-	{
-		"#format"	"{1:s},{2:s}"
-		"en"		"{1} Hattrick"
-		"de"		"{1} Hattrick"
-		"fr"		"{1} Tour du chapeau"
-		"pt"		"{1} tem Habilidade com Cabeças"
-		"es"		"Headshot triple de {1}!"
-	}
-	"headshot 5"
-	{
-		"#format"	"{1:s},{2:s}"
-		"en"		"{1} Head Hunter"
-		"de"		"{1} Kopfjäger"
-		"fr"		"{1} Chasseur de Tête"
-		"pt"		"{1} Caçador de Cabeças"
-		"es"		"{1} es un Cazacabezas!"
 	}
 	"killsound 4"
 	{
@@ -123,7 +105,7 @@
 		"en"		"HOLYSHIT, {1} is a bad ass"
 		"de"		"Heilige Scheiße, {1} ist wahnsinnig"
 		"fr"		"Incroyable, {1} ;quelle mauvais garçon"
-		"pt"		"Puta Merda, {1} é muito foda!
+		"pt"		"Puta Merda, {1} é muito foda!"
 		"es"		"{1} es la Puta Ostia!"
 	}
 	"combo 2"
@@ -141,7 +123,7 @@
 		"en"		"{1} just pulled off a Triple Kill"
 		"de"		"{1} hat gerade drei auf einem niedergestreckt"
 		"fr"		"{1} vien dans tué 3 de suite"
-		"pt"		"{1} acabou de conseguir uma Morte Tripla" 
+		"pt"		"{1} acabou de conseguir uma Morte Tripla"
 		"es"		"Triple Matanza de {1}!"
 	}
 	"combo 4"
@@ -237,7 +219,7 @@
 		"de"		"Deutsche Sounds"
 		"fr"		"Sons Allemand"
 		"pt"		"Sons Alemãs"
-		"es"		"Sonidos Alemanes"	
+		"es"		"Sonidos Alemanes"
 	}
 	"announce message"
 	{
