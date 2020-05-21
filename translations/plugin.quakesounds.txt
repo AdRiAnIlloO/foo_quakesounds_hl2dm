@@ -226,8 +226,8 @@
 		"en"		"Say !quake or /quake to set your quake sounds preferences"
 		"de"		"Tippe !quake oder /quake um deine Quake Sounds einzustellen"
 		"fr"		"Tapez !quake ou /quake Pour enregistrer vos préférences"
-		"pt"		"Digite!quakeou/quakeparaconfigurarSonsQuake"
-		"es"		"Digite !quake ou /quake para configurar Sons Quake"
+		"pt"		"Digite !quake ou /quake para configurar Sons Quake"
+		"es"		"Escribe !quake o /quake para configurar los Sonidos Quake"
 	}
 	"quake menu"
 	{
